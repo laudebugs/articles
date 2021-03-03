@@ -79,7 +79,7 @@ In my case, I will be looking for files in my repository called `articles`. If y
 4. Make the query
    I referenced github user [int128's gist](https://gist.github.com/int128/b0e75e3043c8a33808cea0089d988ed3) for the structure of the graphQl query:
    ```js
-   let request = await githubClient.post({
+   let request = await githubClient.query({
      query: gql`
        {
          repository(owner: "lbugasu", name: "articles") {
@@ -211,3 +211,4 @@ In my case, I will be looking for files in my repository called `articles`. If y
 - How to create a personal access token from your github account: [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 - [Set Authorization Header with Apollo Client](https://medium.com/risan/set-authorization-header-with-apollo-client-e934e6517ccf)
 - [How to handle authorization header with apollo graphql? - Stack Overflow](https://stackoverflow.com/questions/58576940/how-to-handle-authorization-header-with-apollo-graphql)
+- [Get started with GitHub GraphQL API 👨‍🔬](https://dev.to/thomasaudo/get-started-with-github-grapql-api--1g8b) on Dev
