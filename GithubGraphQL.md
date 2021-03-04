@@ -1,10 +1,10 @@
 # Using the Github Graph QL API
 
-> You can <em>sort of</em> use your Github repository as a database for your blog posts by leveraging the Github [Graph QL API](https://docs.github.com/en/graphql) 😱.
+> You can sort of use your Github repository as a database for your blog posts by leveraging the Github [Graph QL API](https://docs.github.com/en/graphql) 😱.
 
 ## Motivation
 
-The Github GraphQL API provides a lot more capabilities than I can cover in one <em>snack</em>.
+The Github GraphQL API provides a lot more capabilities than I can cover in one _snack_.
 
 However, in searching for a way to share the small lessons that I pick up week in week out, I knew that publishing through [Contentful](https://www.contentful.com/), which it the CMS, I use for the main content in my blog site, was a little too much to share easily and quicly.
 Posting on Github and sharing that as [gists](https://gist.github.com/lbugasu) seemed like I would be writing too much for a gist that is supposed to be a short code snippet - which was the original title of this section. Although [MichaelCurrin](https://gist.github.com/MichaelCurrin/6777b91e6374cdb5662b64b8249070ea) proves me otherwise! His article is what got me goint in the first place!
