@@ -346,7 +346,7 @@ We can then pass in the user input using the query variables:
 ```
 
 Here's how the mutation looks like:
-![mutation]()
+![mutation](https://raw.githubusercontent.com/lbugasu/articles/main/resources/graphqlmutation.png)
 
 ### Query
 
@@ -359,6 +359,8 @@ query {
   }
 }
 ```
+
+You can check out the [repo here](https://github.com/lbugasu/express-gql-api)
 
 ### Common Issues that you may run into:
 
