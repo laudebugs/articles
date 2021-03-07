@@ -1,4 +1,4 @@
-# Using the Github Graph QL API
+# How To: User your Repo as a Database with the Github GraphQL API
 
 > You can sort of use your Github repository as a database for your blog posts by leveraging the Github [Graph QL API](https://docs.github.com/en/graphql) 😱.
 
